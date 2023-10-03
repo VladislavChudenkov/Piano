@@ -10,7 +10,7 @@
         Console.WriteLine("Играть на клавишах: Q, W, E, R, T.");
         while (true)
         {
-            var input = Console.ReadKey().Key;
+            var input = Console.ReadKey(true).Key;
             if (input == ConsoleKey.F2 || input == ConsoleKey.F3 || input == ConsoleKey.F4 || input == ConsoleKey.F5)
             {
                 Current =  Change(input);
