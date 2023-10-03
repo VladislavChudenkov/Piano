@@ -7,7 +7,7 @@ class Program
         Console.WriteLine("Пианино");
         Console.WriteLine("Переключение октав: F2-F5");
         Octaves();
-        Console.WriteLine("Играть на клавишах: Q, W, E, R, T - черные клавиши. A, S, D, F, G, H - белые клавиши.");
+        Console.WriteLine("Играть на клавишах: Q, W, E, R, T, Y - черные клавиши. A, S, D, F, G, H - белые клавиши.");
         Console.WriteLine("Перед игрой выберите октаву");
         while (true)
         {
